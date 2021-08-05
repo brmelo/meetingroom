@@ -23,7 +23,7 @@ import br.com.webmeetingroom.webmeetingroom.model.Room;
 import br.com.webmeetingroom.webmeetingroom.repository.RoomRepository;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api/v1")
 public class RoomController {
 	
